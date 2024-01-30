@@ -1,6 +1,6 @@
 #! /bin/bash
 
-PYTHON="${PYTHON:-$(which python3.7)}"
+PYTHON="${PYTHON:-$(which python3.9)}"
 
 $PYTHON -m pip install virtualenv && \
 $PYTHON -m venv amfenv && \
