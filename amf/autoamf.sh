@@ -1,6 +1,6 @@
 #!/bin/bash
 
-usage='Usage: ./autoamf [-1 CNN1_NETWORK] [-2 CNN2_NETWORK] [-s THRESHOLD] [-t TILE_SIZE] FILE...'
+usage='Usage: ./autoamf.sh [-1 CNN1_NETWORK] [-2 CNN2_NETWORK] [-s THRESHOLD] [-t TILE_SIZE] FILE...'
 
 # Set options defaults.
 cnn1_network="CNN1v2.h5"
